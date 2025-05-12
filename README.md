@@ -1,12 +1,19 @@
 STEPS:
 python -m venv venv
+
 py -3.11 -m venv venv
+
 Set-ExecutionPolicy Unrestricted -Scope Process
+
 .\venv\Scripts\activate
+
 pip install -r .\requirements.txt
+
 streamlit run .\PDFEnhancedChatBot_WithVideoSupport.py
 
+
 pip install git+https://github.com/openai/whisper.git
+
 install ffmpeg
 
 This project is an AI-powered chatbot application built using Streamlit, designed to handle and interact with various types of content, including PDFs, URLs, and video presentations. The chatbot leverages advanced natural language processing (NLP) models and tools to provide intelligent question-answering capabilities. Below is a detailed description:
